@@ -1,4 +1,4 @@
-import 'operationType.dart';
+import 'operation_type.dart';
 
 class Category {
   String name;

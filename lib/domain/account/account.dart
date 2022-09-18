@@ -1,4 +1,4 @@
-import 'accountType.dart';
+import 'account_type.dart';
 import 'currency.dart';
 
 class Account {

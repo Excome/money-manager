@@ -1,7 +1,7 @@
 import 'package:moneymanager/domain/account/account.dart';
 
 import 'category.dart';
-import 'operationType.dart';
+import 'operation_type.dart';
 
 class Operation {
   int id;
