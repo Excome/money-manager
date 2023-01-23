@@ -1,14 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:moneymanager/component/navigation_bar.dart';
-import 'package:moneymanager/screen/home/component/account_list.dart';
+import 'package:moneymanager/screen/accounts/component/account_list.dart';
 
-class HomeScreen extends StatelessWidget {
-  const HomeScreen({Key? key}) : super(key: key);
+class AccountsScreen extends StatelessWidget {
+  const AccountsScreen({Key? key}) : super(key: key);
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: buildAppBar(context),
-      bottomNavigationBar: const NavBar(),
+      backgroundColor: Colors.white,
       body: Column(
         children: [
           AccountList()
@@ -23,8 +22,10 @@ class HomeScreen extends StatelessWidget {
       elevation: 0,
       title: const Align(
         alignment: Alignment.center,
-        child: Text("Money Manager"),
+        child: Text("Счета"),
       ),
     );
   }
+
+
 }
